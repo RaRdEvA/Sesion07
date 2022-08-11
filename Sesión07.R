@@ -47,7 +47,7 @@ DataDB <- dbGetQuery(MyDataBase, "select * from City")
 
 class(DataDB)
 head(DataDB)
-
+summary(DataDB)
 
 pop.mean <- mean(DataDB$Population)  # Media a la variable de poblaci?n
 pop.mean 
